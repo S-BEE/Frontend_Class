@@ -1,0 +1,23 @@
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(5,260px);
+    gap: 20px;
+    justify-content: center;
+    border: 3px solid #51bada;
+    margin-top: 20px;
+}
+.grid-item{
+width: 250px;
+height: 280px;
+background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #51bada;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 23px;
+}
+.grid-item img{
+  width: 250px;
+  height: 200px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}

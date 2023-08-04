@@ -1,0 +1,45 @@
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 350px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+/* .pink{
+    background: crimson;
+    color: white;
+    border: 0;
+}
+.pink button{
+    background-color: white;
+    color: crimson;
+}
+ 
+.pink i{
+    color: white;
+} */
+button{
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    outline: 0;
+
+}
+i{
+    color: black;
+}

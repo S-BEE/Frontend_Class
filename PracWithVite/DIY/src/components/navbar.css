@@ -1,0 +1,18 @@
+.nav-container{
+    padding: 1rem 4rem;
+    display:flex;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: rgb(236, 46, 46);
+}
+.nav-container a{
+    color: aliceblue;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 1.5rem;
+}
+li{
+    text-decoration: none;
+    color: aliceblue;
+}

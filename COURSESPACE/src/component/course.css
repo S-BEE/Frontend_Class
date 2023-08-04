@@ -1,0 +1,28 @@
+.course-section{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    background: #f2f5f5;
+
+}
+
+.title{
+    width: 100px;
+}
+
+.course{
+    display: flex;
+    gap: 1rem;
+}
+@media screen and (max-width:769px){
+    .course-section{
+        flex-direction: column;
+    }
+    .title h2{
+        width: 500px;
+        font-size: 30px;
+    }
+    .course{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,29 @@
+
+.top-section{
+    background-color: #f66;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navbar{
+    margin-top: 15px;
+    color: #000;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+}
+.btn-ish{
+    padding: 5px 20px;
+    background-color: #faf8f8;
+    border-radius: 20px;
+    color: #000;
+}
+

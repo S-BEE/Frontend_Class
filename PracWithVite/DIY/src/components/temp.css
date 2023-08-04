@@ -1,0 +1,34 @@
+
+.app{
+    width: 200px;
+    padding: 1rem;
+    background-color: green;
+    border-radius: 7px;
+    outline: white;
+}
+.displayTemp{
+   
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: auto;
+}
+.flex{
+    
+    display: flex;
+    gap: 7rem;
+}
+
+.circle{
+    height: 2rem;
+    width: 2rem;
+}
+.cold{
+
+    background-color: red;
+}
+.hot{
+
+    background: blue;
+}
